@@ -1,0 +1,38 @@
+body {
+    font-family: Times New Roman;
+    text-align: center;
+    margin-top: 50px;
+}
+
+h1{
+    font-family:Impact;
+    font-weight: 700;
+    font-size: 80px;
+}
+
+p{
+    font-size: 35px;
+
+}
+
+button#quoteButton{
+    width: 250px;
+    height: 80px;
+    background-color: blue;
+    color: white;
+    padding-inline: 6px;
+    border-width: 2px;
+    padding: 10px 20px;
+}
+
+#quoteButton:hover {
+    background-color: green; 
+}
+
+#quote,#author {
+    font-size: 35px;
+    font-weight: 400;
+    margin: 20px;
+    color: #333;
+    line-height: 60px;
+}
